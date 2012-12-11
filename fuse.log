@@ -1,0 +1,60 @@
+Running: C:\Xilinx\12.4\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -o E:/mono/MonoCiclo/tb_processor_isim_beh.exe -prj E:/mono/MonoCiclo/tb_processor_beh.prj work.tb_processor 
+ISim M.81d (signature 0xcb73ee62)
+Number of CPUs detected in this system: 2
+Turning on mult-threading, number of parallel sub-compilation jobs: 4 
+Determining compilation order of HDL files
+Parsing VHDL file "E:/mono/MonoCiclo/sign_extension_disp30.vhd" into library work
+Parsing VHDL file "E:/mono/MonoCiclo/sign_extension.vhd" into library work
+Parsing VHDL file "E:/mono/MonoCiclo/Register_File.vhd" into library work
+Parsing VHDL file "E:/mono/MonoCiclo/rd_mu.vhd" into library work
+Parsing VHDL file "E:/mono/MonoCiclo/rdd_mu.vhd" into library work
+Parsing VHDL file "E:/mono/MonoCiclo/PC.vhd" into library work
+Parsing VHDL file "E:/mono/MonoCiclo/modu.vhd" into library work
+Parsing VHDL file "E:/mono/MonoCiclo/Mcwp.vhd" into library work
+Parsing VHDL file "E:/mono/MonoCiclo/i_mux.vhd" into library work
+Parsing VHDL file "E:/mono/MonoCiclo/InstructionMemory.vhd" into library work
+Parsing VHDL file "E:/mono/MonoCiclo/instruction.vhd" into library work
+Parsing VHDL file "E:/mono/MonoCiclo/icc.vhd" into library work
+Parsing VHDL file "E:/mono/MonoCiclo/DataMemory.vhd" into library work
+Parsing VHDL file "E:/mono/MonoCiclo/control_Unit.vhd" into library work
+Parsing VHDL file "E:/mono/MonoCiclo/branc_Unit.vhd" into library work
+Parsing VHDL file "E:/mono/MonoCiclo/Alu_mu.vhd" into library work
+Parsing VHDL file "E:/mono/MonoCiclo/Alu.vhd" into library work
+Parsing VHDL file "E:/mono/MonoCiclo/Processor.vhd" into library work
+Parsing VHDL file "E:/mono/MonoCiclo/tb_Processor.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 97948 KB
+Fuse CPU Usage: 405 ms
+Using precompiled package standard from library std
+Using precompiled package std_logic_1164 from library ieee
+Using precompiled package std_logic_arith from library ieee
+Using precompiled package std_logic_signed from library ieee
+Using precompiled package std_logic_unsigned from library ieee
+Using precompiled package textio from library std
+Using precompiled package numeric_std from library ieee
+Compiling architecture arq_pc of entity pc [pc_default]
+Compiling architecture arch_instructionmemory of entity instructionmemory [instructionmemory_default]
+Compiling architecture behavioral of entity instruction [instruction_default]
+Compiling architecture behavioral of entity sign_extension_disp30 [sign_extension_disp30_default]
+Compiling architecture arq_register_file of entity register_file [register_file_default]
+Compiling architecture arq_alu of entity alu [alu_default]
+Compiling architecture behavioral of entity sign_extension [sign_extension_default]
+Compiling architecture arq_icc of entity icc [icc_default]
+Compiling architecture behavioral of entity control_unit [control_unit_default]
+Compiling architecture behavioral of entity branc_unit [branc_unit_default]
+Compiling architecture arq_modu of entity modu [modu_default]
+Compiling architecture arq_mcwp of entity mcwp [mcwp_default]
+Compiling architecture behavioral of entity i_mux [i_mux_default]
+Compiling architecture behavioral of entity alu_mu [alu_mu_default]
+Compiling architecture behavioral of entity datamemory [datamemory_default]
+Compiling architecture behavioral of entity rd_mu [rd_mu_default]
+Compiling architecture behavioral of entity rdd_mu [rdd_mu_default]
+Compiling architecture arq_processor of entity processor [processor_default]
+Compiling architecture behavior of entity tb_processor
+Time Resolution for simulation is 1ps.
+Waiting for 4 sub-compilation(s) to finish...
+Compiled 44 VHDL Units
+Built simulation executable E:/mono/MonoCiclo/tb_processor_isim_beh.exe
+Fuse Memory Usage: 103688 KB
+Fuse CPU Usage: 795 ms

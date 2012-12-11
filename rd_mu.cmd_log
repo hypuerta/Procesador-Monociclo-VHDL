@@ -1,0 +1,1 @@
+vhdtdtfi -prj MonoCiclo -o "C:/Documents and Settings/Administrador/Escritorio/mono/MonoCiclo/rd_mu.vhi" -lib work "C:/Documents and Settings/Administrador/Escritorio/mono/MonoCiclo//rd_mu.vhd" -module rd_mu -template C:/Xilinx/12.4/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror 

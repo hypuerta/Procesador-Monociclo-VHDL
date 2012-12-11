@@ -1,0 +1,1 @@
+vhdtdtfi -prj MonoCiclo -o "C:/Documents and Settings/Administrador/Escritorio/mono/MonoCiclo/Alu_mu.vhi" -lib work "C:/Documents and Settings/Administrador/Escritorio/mono/MonoCiclo//Alu_mu.vhd" -module Alu_mu -template C:/Xilinx/12.4/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror 

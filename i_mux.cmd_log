@@ -1,0 +1,1 @@
+vhdtdtfi -prj MonoCiclo -o C:/Users/usuario/MonoCiclo/i_mux.vhi -lib work C:/Users/usuario/MonoCiclo//i_mux.vhd -module i_mux -template C:/Xilinx/12.4/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror 

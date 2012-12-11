@@ -1,0 +1,1 @@
+vhdtdtfi -prj MonoCiclo -o "C:/Documents and Settings/Administrador/Escritorio/mono/MonoCiclo/DataMemory.vhi" -lib work "C:/Documents and Settings/Administrador/Escritorio/mono/MonoCiclo//DataMemory.vhd" -module DataMemory -template C:/Xilinx/12.4/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror 

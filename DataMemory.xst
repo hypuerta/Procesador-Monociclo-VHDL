@@ -1,0 +1,5 @@
+set -tmpdir "C:/Documents and Settings/Administrador/Escritorio/mono/MonoCiclo/xst/projnav.tmp"
+set -xsthdpdir "C:/Documents and Settings/Administrador/Escritorio/mono/MonoCiclo/xst"
+elaborate
+-ifn DataMemory.prj
+-ifmt mixed
